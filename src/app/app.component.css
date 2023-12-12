@@ -1,0 +1,23 @@
+.container {
+  margin: 10px;
+}
+
+.header {
+  position: fixed;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2%;
+  margin-bottom: 1%;
+}
+
+.blog-img {
+  width: 20%;
+}
+
+.blog-text {
+  width: 25%;
+}
