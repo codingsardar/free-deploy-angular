@@ -11,7 +11,11 @@ export class AppService {
   constructor(private http: HttpClient) { }
 
   getBlogs(): Observable<BlogEntity[]> {
-    return this.http.get<BlogEntity[]>('https://blogsapp-aux4.onrender.com/api/v1/get-blogs');
+    return this.http.get<BlogEntity[]>('https://blogsapp-oewa.onrender.com/api/v1/get-blogs');
+  }
+
+  getMessage(): Observable<string> {
+    return this.http.get('https://blogsapp-oewa.onrender.com/api/v1/greet', { responseType: 'text' });
   }
 
 }
