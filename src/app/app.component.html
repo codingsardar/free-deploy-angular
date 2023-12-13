@@ -1,6 +1,6 @@
 <div class="container">
+  <h3 class="welcome">{{ message }}</h3>
   <h1 class="header">Coding Sardar Blog</h1>
-  <h3>{{ message }}</h3>
   <div class="wrapper" *ngFor="let blog of blogPosts">
     <img class="blog-img" [src]="blog.imgUrl" alt="blog image">
     <span class="blog-text">{{blog.blogText}}</span>

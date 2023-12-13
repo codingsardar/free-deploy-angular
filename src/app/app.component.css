@@ -2,8 +2,13 @@
   margin: 10px;
 }
 
+.welcome {
+  position: fixed;
+}
+
 .header {
   position: fixed;
+  top: 4%;
 }
 
 .wrapper {
